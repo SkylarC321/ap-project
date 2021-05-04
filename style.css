@@ -1,0 +1,100 @@
+body {
+    background-image: url('images/glitterbackground.jpg');
+}
+
+.Nav-bar ul{
+    background-color: aqua;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.Nav-bar li {
+    float: left;
+}
+
+.Nav-bar li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 20px 46px;
+}
+
+.Nav-bar li a:hover {
+    background-color: blue;
+}
+
+.About h1 {
+    text-align: center;
+}
+
+.About h2 {
+    text-align: center;
+}
+
+.About p {
+    text-align: center;
+}
+
+.Shirts h1 {
+    text-align: center;
+}
+
+.Shirts h2 {
+    text-align: center;
+}
+
+.Shirt p {
+    padding-left: 100px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.Pants h1 {
+    text-align: center;
+}
+
+.Pants h2 {
+    text-align: center;
+}
+
+.Dresses h1 {
+    text-align: center;
+}
+
+.Dresses h2 {
+    text-align: center;
+}
+
+.Skirts h1 {
+    text-align: center;
+}
+
+.Skirts h2 {
+    text-align: center;
+}
+
+.Pajamas h1 {
+    text-align: center;
+}
+
+.Pajamas h2 {
+    text-align: center;
+}
+
+.Pants h1 {
+    text-align: center;
+}
+
+.Pants h2 {
+    text-align: center;
+}
+
+.Shoes h1 {
+    text-align: center;
+}
+
+.Shoes h2 {
+    text-align: center;
+}
