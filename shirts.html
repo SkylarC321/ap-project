@@ -5,6 +5,7 @@
     <title>Clothing Store</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 
   </head>
   
@@ -41,13 +42,27 @@
       <h1>Shirts</h1>
       <h2>We have many different shirts</h2>
       <p>
-        <img src='shirtpics/tanktop-images/tanktops.jpg' width=45% />
-        <img src='shirtpics/tshirt-images/tshirts.jpg' width=45% />
+        <a href="#" ondblclick="addItem(0)"><img src='shirtpics/tanktop-images/tanktops.jpg' /></a>
+        <a href="#" ondblclick="addItem(1)"><img src='shirtpics/tshirt-images/tshirts.jpg' /></a>
       </p>
       <p>
-          <img src='shirtpics/blouse-images/blouses.jpg' width=45% />
-          <img src='shirtpics/buttondown-images/buttondowns.jpg' width=45% />
+        <a href="#" ondblclick="addItem(2)"><img src='shirtpics/blouse-images/blouses.jpg' /></a>
+        <a href="#" ondblclick="addItem(3)"><img src='shirtpics/buttondown-images/buttondowns.jpg' /></a>
       </p>
+      
+      <a href="#" onclick="openGallery('Gallery-shirt')"><img src="images/shirts.jpg" /></a>
+      
+      <div id="Gallery" class="GalleryView hideGallery">
+        <a href="#" onclick="openGallery()" >Gallery</a>
+        <div id="Gallery-shirt" >
+        <img src="images/shirts.jpg" onclick="closeGallery()" width="400px" height="400px" />
+        </div>
+      </div>
+      </a>
+      </div>
+        
+    </div>
      </body>
     </div>
+    
 </html>
