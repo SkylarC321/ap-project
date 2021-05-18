@@ -5,6 +5,7 @@
     <title>Clothing Store</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 
   </head>
   
@@ -40,9 +41,18 @@
       <body>
       <h1>Pajamas</h1>
       <h2>We have many different pajamas</h2>
+
       <p>
-        <img src="pajamas-images/pajamas.jpg" />
+        <a href="#" ondblclick="addItem(6)"><img src='pajamas-images/pajamas.jpg' /></a>
       </p>
+      
+      <a href="#" onclick="openGallery('Gallery-pants')"><img src="pajamas-images/pajamas.jpg" /></a>
+      
+      <div id="Gallery" class="GalleryView hideGallery">
+        <a href="#" onclick="openGallery()" >Gallery</a>
+        <div id="Gallery-pajamas" >
+        <img src="pajamas-images/pajamas.jpg" onclick="closeGallery()" width="400px" height="400px" />
+        </div>
      </body>
     </div>
 </html>
