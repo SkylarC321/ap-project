@@ -98,3 +98,19 @@ body {
 .Shoes h2 {
     text-align: center;
 }
+
+.GalleryView {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0, 0.5);
+    text-align: center;
+    width: 100%;
+    height: 2000px;
+}
+
+.hideGallery {
+    visibility: hidden;
+    display: none;
+}
